@@ -34,6 +34,11 @@ h1 {
     text-align: center;
     font-size: 32px;
   }
+  #title-text2 {
+    color: black;
+    text-align: center;
+    font-size: 32px;
+  }
   
   p {
     font-size: 16px;
