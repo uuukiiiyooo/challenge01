@@ -1,6 +1,9 @@
 body {
     margin: auto 0;
     font-family: Arial;
+    display: flex; 
+    flex-direction: row; 
+    box-sizing: content-box;
 }
 
 div {
@@ -106,5 +109,12 @@ h1 {
       width: 90%;
     }
   }
-  
+  @media (max-width: 600px) {
+    body {
+      flex-direction: column;
+    }
+    section {
+      width: 100%;
+    }
+  }
 
