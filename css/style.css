@@ -34,12 +34,21 @@ div {
   img {
     max-width: 100%;
 }
-section {
+#header-section {
     position: relative; /* make the section element a positioned element */
   }
   
   p {
     text-align: center; /* center the text within the element */
+  }
+
+
+  #timeline-main {
+    display: flex; /* make the section element a flex container */
+    justify-content: center; /* center the content horizontally */
+    align-items: center; /* center the content vertically */
+    width: 100%;
+
   }
  
   @media (max-width: 500px) {
