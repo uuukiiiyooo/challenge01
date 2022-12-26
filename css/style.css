@@ -2,10 +2,32 @@ body {
     margin: auto 0;
     font-family: Arial;
 }
+
 div {
-    width: 500px;
+    width: 900px;
     margin: auto;
   }
+
+  img {
+    width: 500px;
+  }
+  
+#main {
+  background-color: aliceblue;
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+
+h1 {
+  display: flex; /* make the section element a flex container */
+  justify-content: center; /* center the content horizontally */
+  align-items: center; /* center the content vertically */
+  width: 100%;
+}
   
   #title-text {
     color: blue;
@@ -18,23 +40,19 @@ div {
     text-align: center;
   }
 
-  
-  p {
-    text-align: center; 
-  }
   #header-section {
     display: flex; /* make the section element a flex container */
     justify-content: center; /* center the content horizontally */
     align-items: center; /* center the content vertically */
     width: 100%;
-  
   }
   
 
   img {
     max-width: 100%;
-}
-#header-section {
+  }
+
+  #header-section {
     position: relative; /* make the section element a positioned element */
   }
   
@@ -42,13 +60,16 @@ div {
     text-align: center; /* center the text within the element */
   }
 
-
   #timeline-main {
     display: flex; /* make the section element a flex container */
     justify-content: center; /* center the content horizontally */
     align-items: center; /* center the content vertically */
     width: 100%;
+  }
 
+  span {
+    text-decoration: underline;
+    font-weight: bold;
   }
   footer {
     background-color: lightgray; 
